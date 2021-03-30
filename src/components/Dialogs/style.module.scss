@@ -1,0 +1,23 @@
+.dialogs {
+  display: grid;
+  grid-template-areas: "title" "main";
+  grid-template-rows: 1fr 5fr;
+  grid-gap: 10px;
+  &__title {
+    grid-area: title;
+  }
+  &__main {
+    display: grid;
+    grid-area: main;
+    grid-gap: 10px;
+    grid-template-areas: "item-dialog item-message";
+    grid-template-columns: 3fr 9fr;
+
+    .item-dialogs {
+      grid-area: item-dialog;
+      border-right: 2px solid black;
+    
+    }
+ 
+  }
+}

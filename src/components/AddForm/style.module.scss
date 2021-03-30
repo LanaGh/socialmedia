@@ -1,0 +1,30 @@
+.PostForm{
+  form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  input {
+    cursor: text;
+    outline: none;
+    border: none;
+    resize: none;
+    width: 90%;
+    height: 50px;
+    margin: 5%;
+    background-color: #65676b40;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    width: 120px;
+    margin: 5px;
+    padding: 6px;
+    color: midnightblue;
+    background: #1e660980;
+    border-radius: 30px;
+  }
+}}

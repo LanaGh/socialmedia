@@ -1,0 +1,13 @@
+.nav {
+  grid-area: nav;
+  background-color: rgb(76, 117, 117);
+  padding: 10px;
+  &__item {
+    a {
+      color: powderblue;
+    }
+    &--active{
+      color:rgb(49, 206, 35)!important;
+    }
+  }
+}

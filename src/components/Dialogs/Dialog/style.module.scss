@@ -1,0 +1,16 @@
+.item-dialog {
+  a {
+    width: 100%;
+    display: flex;
+  }
+  &--active {
+    background-color: rgb(0, 255, 191);  }
+  &__name {
+    color: brown;
+  }
+  &__icon {
+    img {
+      width: 50px;
+    }
+  }
+}
